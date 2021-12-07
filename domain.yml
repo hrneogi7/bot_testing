@@ -1,0 +1,65 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - start_interview
+  - prime_minister1
+  - prime_minister2
+  - answer_7
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_start_interview:
+  - text: "Sure shall we proceed?"
+
+  utter_question_1:
+  - text: "Who is prime minister of India?"
+
+  utter_question_2:
+  - text: "Which of the following is generally used for performing tasks like creating the structure of the relations, deleting relation?\n a)DML(Data Manipulation Language)\n b)Query\n c)Relational Schema\n d)DDL(Data Definition Language)"
+
+  utter_question_3:
+  - text: "To which of the following the term DBA referred?\n a)Data Bank Administrator\nb)Database Administrator\nc)Data Administrator\nd)None of the above"
+
+  utter_question_4:
+  - text: "Multiplexing is used in?\na)Circuit switching\nb)Data switching\nc)Packet switching\nd)Packet & Circuit switching"
+
+  utter_question_5:
+  - text: "What is the maximum length of the filename in DOS?\na)4\nb)5\nc)8\nd)12"
+
+  utter_question_6:
+  - text: "What will be the output of this function = all([2,4,0,6])?\na)False\nb)True\nc)0\nd)Invalid code"
+
+  utter_question_7:
+  - text: "Which was the first purely object oriented programming language developed?\na)Kotlin\nb)SmallTalk\nJava\nd)C++"
+
+  utter_end_interview:
+  - text: "Ok let's end the interview here, Thankyou for your cooperation."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
