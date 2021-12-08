@@ -95,22 +95,232 @@ nlu:
   examples: |
     - I want to start the interview
     - Let's Start
+    - Please Start
+    - yes
+    - ofcourse
+    - sure
 
-- intent: prime_minister1
+- intent: answer_1
   examples: |
-    - Naredra Modi
-    - Norundra mudi
-    - Feku ji
+    - DML
+    - Query
+    - RElational Schema
+    - DDl
+    - Data Definition Language
 
-- intent: prime_minister2
+- intent: answer_2
   examples: |
-    - Sheik Hasina
-    - O Haseena
-    - Sheik mujib
+    - Conceptual Level
+    - Physical Level
+    - File Level
+    - Logical Level
+
+- intent: answer_3
+  examples: |
+    - Data Bank Administrator
+    - Database Administrator
+    - Data Administrator
+    - None of the above
+
+- intent: answer_4
+  examples: |
+    - Delete
+    - Remove
+    - Drop
+    - All of the above
+
+- intent: answer_5
+  examples: |
+    - Savepoint
+    - Commit
+    - Rollback
+    - Both A & B
+
+- intent: answer_6
+  examples: |
+    - chief network
+    - prime network
+    - prior network
+    - overlay network
 
 - intent: answer_7
   examples: |
-    - Small Talk
-    - smalltalk
-    - smoll talk
+    - unicast network
+    - broadcast network
+    - multicast network
+    - none of the mentioned
+
+- intent: answer_8
+  examples: |
+    - Circuit switching
+    - Data switching
+    - Packet switching
+    - Packet & Circuit switching
+
+- intent: answer_9
+  examples: |
+    - local area network
+    - virtual private network
+    - personal area network
+    - none of the mentioned
+
+- intent: answer_10
+  examples: |
+    - 36.8
+    - 35.8
+    - 35.5
+    - 37.8
+
+
+- intent: answer_11
+  examples: |
+    - Empty collection
+    - Underflow
+    - Overflow
+    - Garbage Collection
+
+- intent: answer_12
+  examples: |
+    - 1
+    - 40
+    - 74
+    - -18
+
+- intent: answer_13
+  examples: |
+    - n+O(n)
+    - 2n+O(n)
+    - n/2
+    - n
+
+- intent: answer_14
+  examples: |
+    - (i+1)/2
+    - (i-1)/2
+    - i/2
+    - 2i/2
+
+- intent: answer_15
+  examples: |
+    - O(log n)
+    - O(h)
+    - O(log n) & O(h)
+    - O(n)
+
+- intent: answer_16
+  examples: |
+    - 4
+    - 5
+    - 8
+    - 12
+
+- intent: answer_17
+  examples: |
+    - prompt
+    - kernel
+    - shell
+    - command
+
+
+- intent: answer_18
+  examples: |
+    - To prevent deadlock
+    - To deadlock recovery
+    - To solve the deadlock
+    - None of these
+
+- intent: answer_19
+  examples: |
+    - Windows
+    - MAC
+    - Ms-Dos
+    - None of these
+
+
+- intent: answer_20
+  examples: |
+    - Mutual exclusion
+    - Hold and wait
+    - Circular wait
+    - No preemption
+    - All of these
+
+- intent: answer_21
+  examples: |
+    - Efficient Code
+    - Code reusability
+    - Modularity
+    - Duplicate/Redundant data
+
+- intent: answer_22
+  examples: |
+    - Kotlin
+    - SmallTalk
+    - Java
+    - C++
+
+- intent: answer_23
+  examples: |
+    - It allows code to be written outside classes
+    - It supports usual declaration of primitive data types
+    - It does not support pointers
+    - It doesn’t support all types of inheritance
+
+- intent: answer_24
+  examples: |
+    - Function Overloading
+    - Function Overriding
+    - Operator Overloading
+    - Operator Overriding
+
+- intent: answer_25
+  examples: |
+    - False
+    - True
+    - 0
+    - invalid code
+
+- intent: answer_26
+  examples: |
+    - 92 km
+    - 60 km
+    - 94 km
+    - 96 km
+
+- intent: answer_27
+  examples: |
+    - Rs. 1250
+    - Rs.1300
+    - Rs. 1200
+    - Rs. 1150
+
+
+- intent: answer_28
+  examples: |
+    - antipode
+    - pole
+    - equator
+    - reverse
+
+- intent: answer_29
+  examples: |
+    - Son
+    - Brother
+    - Brother-in-law
+    - Father
+
+- intent: answer_30
+  examples: |
+    - 990
+    - 900
+    - 940
+    - 840
+- intent: dont_know
+  examples: |
+    - I dont know
+    - Cant answer
+    - Im soryy I dont know
+    - dont remember
+
+
 

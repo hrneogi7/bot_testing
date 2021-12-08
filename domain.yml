@@ -9,9 +9,39 @@ intents:
   - mood_unhappy
   - bot_challenge
   - start_interview
-  - prime_minister1
-  - prime_minister2
+  - answer_1
+  - answer_2
+  - answer_3
+  - answer_4
+  - answer_5
+  - answer_6
   - answer_7
+  - answer_7
+  - answer_8
+  - answer_9
+  - answer_10
+  - answer_11
+  - answer_12
+  - answer_13
+  - answer_14
+  - answer_15
+  - answer_16
+  - answer_17
+  - answer_18
+  - answer_19
+  - answer_20
+  - answer_21
+  - answer_22
+  - answer_23
+  - answer_24
+  - answer_25
+  - answer_26
+  - answer_27
+  - answer_28
+  - answer_29
+  - answer_30
+  - dont_know
+
 
 responses:
   utter_greet:
@@ -37,28 +67,79 @@ responses:
   - text: "Sure shall we proceed?"
 
   utter_question_1:
-  - text: "Who is prime minister of India?"
+  - text: "Which of the following is generally used for performing tasks like creating the structure of the relations, deleting relation?a)DML(Data Manipulation Language)b)Queryc)Relational Schemad)DDL(Data Definition Language)"
 
   utter_question_2:
-  - text: "Which of the following is generally used for performing tasks like creating the structure of the relations, deleting relation?\n a)DML(Data Manipulation Language)\n b)Query\n c)Relational Schema\n d)DDL(Data Definition Language)"
+  - text: "Which of the following refers to the level of data abstraction that describes exactly how the data actually stored?a)	Conceptual Levelb)Physical Levelc)File Leveld)Logical Level"
 
   utter_question_3:
-  - text: "To which of the following the term DBA referred?\n a)Data Bank Administrator\nb)Database Administrator\nc)Data Administrator\nd)None of the above"
+  - text: "To which of the following the term DBA referred?a)Data Bank Administratorb)Database Administratorc)Data Administratord)None of the above"
 
   utter_question_4:
-  - text: "Multiplexing is used in?\na)Circuit switching\nb)Data switching\nc)Packet switching\nd)Packet & Circuit switching"
+  - text: "Which one of the following commands is used for removing (or deleting) a relation forms the SQL database?a)Deleteb)Removec)Dropd)All of the above"
 
   utter_question_5:
-  - text: "What is the maximum length of the filename in DOS?\na)4\nb)5\nc)8\nd)12"
+  - text: "Which one of the following commands is used to restore the database to the last committed state?a)Savepointb)Commitc)Rollbackd)Both A & B2"
 
   utter_question_6:
-  - text: "What will be the output of this function = all([2,4,0,6])?\na)False\nb)True\nc)0\nd)Invalid code"
+  - text: "Which one of the following computer network is built on the top of another network?a)chief networkb)prime networkc)prior networkd)overlay network"
 
   utter_question_7:
-  - text: "Which was the first purely object oriented programming language developed?\na)Kotlin\nb)SmallTalk\nJava\nd)C++"
+  - text: "Communication channel is shared by all machines on the network in?a)unicast networkb)broadcast networkc)multicast networkd)none of the mentioned"
 
+  utter_question_8:
+  - text: "Multiplexing is used in?a)Circuit switchingb)Data switchingc)Packet switchingd)Packet & Circuit switching"
+
+  utter_question_9:
+  - text: "Bluetooth is an example of?a)local area networkb)virtual private networkc)personal area networkd)none of the mentioned"
+  utter_question_10:
+  - text: "What is the maximum efficiency of slotted aloha at G = 1?a)36.8b)35.8c)35.5d)37.8"
+
+  utter_question_11:
+  - text: "In a stack, if a user tries to remove an element from an empty stack it is called?a)Empty collectionb)Underflowc)Overflowd)Garbage Collection"
+
+  utter_question_12:
+  - text: "What is the value of the postfix expression 6 3 2 4 + – *?a)1b)40c)74d)-18"
+
+  utter_question_13:
+  - text: "How many bits would a succinct binary tree occupy?a)n+O(n)b)2n+O(n)c)n/2d)n"
+  utter_question_14:
+  - text: "If binary trees are represented in arrays, using what formula can a parent node be located in an array?a)(i+1)/2b)(i-1)/2c)i/2d)2i/2"
+
+  utter_question_15:
+  - text: "What is the complexity of adding an element to the heap.?a)O(log n)b)O(h)c)O(log n) & O(h)d)O(n)"
+  utter_question_16:
+  - text: "What is the maximum length of the filename in DOS?a)4b)5c)8d)12"
+  utter_question_17:
+  - text: "What else is a command interpreter called?a)promptb)kernelc)shelld)command"
+  utter_question_18:
+  - text: "Banker's algorithm is used?a)To prevent deadlockb)To deadlock recoveryc)To solve the deadlockd)None of these"
+  utter_question_19:
+  - text: "Which of the following is a single-user operating system?a)Windowsb)MACc)Ms-Dosd)None of these"
+  utter_question_20:
+  - text: "Which of the following is a condition that causes deadlock?a)Mutual exclusionb)Hold and waitc)Circular waitd)No preemptione)All of these"
+  utter_question_21:
+  - text: "Which is not a feature of OOP in general definitions?a)Efficient Codeb)Code reusabilityc)Modularityd)Duplicate/Redundant data"
+  utter_question_22:
+  - text: "Which was the first purely object oriented programming language developed?a)Kotlinb)SmallTalkc)Javad)C++"
+  utter_question_23:
+  - text: "Why Java is Partially OOP language?a)It allows code to be written outside classesb)It supports usual declaration of primitive data typesc)It does not support pointersd)It doesn’t support all types of inheritance"
+  utter_question_24:
+  - text: "Which feature in OOP is used to allocate additional functions to a predefined operator in any language?a)Function Overloadingb)Function Overridingc)Operator Overloadingd)Operator Overriding"
+  utter_question_25:
+  - text: "What will be the output of this function : all([2,4,0,6])?a)Falseb)Truec)0d)Invalid code"
+  utter_question_26:
+  - text: "A man covers a distance of 110 km between two cities in 10 hours. He travelled partly on foot at 9 km/hr and partly on a bicycle at 15 km/hr. Find the distance travelled on foot.a)92 kmb)60 kmc)94 kmd)96 km"
+  utter_question_27:
+  - text: "On a certain sum of money the compound interest Rs. 318 is earned in 2 years. If the rate of interest is 12%, what is the principal amount?a)Rs. 1250b)Rs.1300c)Rs. 1200d)Rs. 1150"
+  utter_question_28:
+  - text: "The direct opposite (diametrically opposite) of something.a)antipodeb)polec)equatord)reverse"
+  utter_question_29:
+  - text: "Pointing to a photograph of a woman Rohan says, She is the sister-in-law of the only daughter of my mother-in-law's husband. How is the Rohan related to the woman?a)Sonb)Brotherc)Brother-in-lawd)Father"
+  utter_question_30:
+  - text: "Which number should come next in the series, 12, 36,109, 329, _?a)990b)900c)940d)890"
   utter_end_interview:
-  - text: "Ok let's end the interview here, Thankyou for your cooperation."
+  - text: "Ok let's end the interview here, Thankyou for your time."
 
 session_config:
   session_expiration_time: 60
