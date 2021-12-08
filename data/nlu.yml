@@ -42,7 +42,6 @@ nlu:
 - intent: deny
   examples: |
     - no
-    - n
     - never
     - I don't think so
     - don't like that
@@ -96,7 +95,7 @@ nlu:
     - I want to start the interview
     - Let's Start
     - Please Start
-    - yes
+    - yes sure
     - ofcourse
     - sure
 
@@ -148,7 +147,7 @@ nlu:
     - unicast network
     - broadcast network
     - multicast network
-    - none of the mentioned
+    - none
 
 - intent: answer_8
   examples: |
@@ -234,7 +233,7 @@ nlu:
     - Windows
     - MAC
     - Ms-Dos
-    - None of these
+    - None of
 
 
 - intent: answer_20
