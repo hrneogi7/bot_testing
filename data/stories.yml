@@ -29,6 +29,140 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
+# - story: interview path 1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_great
+#   - action: utter_happy
+#   - intent: start_interview
+#   - action: utter_start_interview
+#   - intent: affirm
+#   - action: utter_question_1
+#   - or:
+#     - intent: answer_1
+#     - intent: dont_know
+#   - action: utter_question_2
+#   - or:
+#     - intent: answer_2
+#     - intent: dont_know
+#   - action: utter_question_3
+#   - or:
+#     - intent: answer_3
+#     - intent: dont_know
+#   - action: utter_question_4
+#   - or:
+#     - intent: answer_4
+#     - intent: dont_know
+#   - action: utter_question_5
+#   - or:
+#     - intent: answer_5
+#     - intent: dont_know
+#   - action: utter_question_6
+#   - or:
+#     - intent: answer_6
+#     - intent: dont_know
+#   - action: utter_question_7
+#   - or:
+#     - intent: answer_7
+#     - intent: dont_know
+#   - action: utter_question_8
+#   - or:
+#     - intent: answer_8
+#     - intent: dont_know
+#   - action: utter_question_9
+#   - or:
+#     - intent: answer_9
+#     - intent: dont_know
+#   - action: utter_question_10
+#   - or:
+#     - intent: answer_10
+#     - intent: dont_know
+#   - action: utter_question_11
+#   - or:
+#     - intent: answer_11
+#     - intent: dont_know
+#   - action: utter_question_12
+#   - or:
+#     - intent: answer_12
+#     - intent: dont_know
+#   - action: utter_question_13
+#   - or:
+#     - intent: answer_13
+#     - intent: dont_know
+#   - action: utter_question_14
+#   - or:
+#     - intent: answer_14
+#     - intent: dont_know
+#   - action: utter_question_15
+#   - or:
+#     - intent: answer_15
+#     - intent: dont_know
+#   - action: utter_question_16
+#   - or:
+#     - intent: answer_16
+#     - intent: dont_know
+#   - action: utter_question_17
+#   - or:
+#     - intent: answer_17
+#     - intent: dont_know
+#   - action: utter_question_18
+#   - or:
+#     - intent: answer_18
+#     - intent: dont_know
+#   - action: utter_question_19
+#   - or:
+#     - intent: answer_19
+#     - intent: dont_know
+#   - action: utter_question_20
+#   - or:
+#     - intent: answer_20
+#     - intent: dont_know
+#   - action: utter_question_21
+#   - or:
+#     - intent: answer_21
+#     - intent: dont_know
+#   - action: utter_question_22
+#   - or:
+#     - intent: answer_22
+#     - intent: dont_know
+#   - action: utter_question_23
+#   - or:
+#     - intent: answer_23
+#     - intent: dont_know
+#   - action: utter_question_24
+#   - or:
+#     - intent: answer_24
+#     - intent: dont_know
+#   - action: utter_question_25
+#   - or:
+#     - intent: answer_25
+#     - intent: dont_know
+#   - action: utter_question_26
+#   - or:
+#     - intent: answer_26
+#     - intent: dont_know
+#   - action: utter_question_27
+#   - or:
+#     - intent: answer_27
+#     - intent: dont_know
+#   - action: utter_question_28
+#   - or:
+#     - intent: answer_28
+#     - intent: dont_know
+#   - action: utter_question_29
+#   - or:
+#     - intent: answer_29
+#     - intent: dont_know
+#   - action: utter_question_30
+#   - or:
+#     - intent: answer_30
+#     - intent: dont_know
+#   - action: utter_end_interview
+#   - intent: affirm
+#   - action: utter_goodbye
+
+
 - story: interview path 1
   steps:
   - intent: greet
@@ -39,125 +173,23 @@ stories:
   - action: utter_start_interview
   - intent: affirm
   - action: utter_question_1
-  - or:
-    - intent: answer_1
-    - intent: dont_know
+  - intent: answer_1
   - action: utter_question_2
-  - or:
-    - intent: answer_2
-    - intent: dont_know
+  - intent: answer_2
   - action: utter_question_3
-  - or:
-    - intent: answer_3
-    - intent: dont_know
+  - intent: answer_3
   - action: utter_question_4
-  - or:
-    - intent: answer_4
-    - intent: dont_know
+  - intent: answer_4
   - action: utter_question_5
-  - or:
-    - intent: answer_5
-    - intent: dont_know
+  - intent: answer_5
   - action: utter_question_6
-  - or:
-    - intent: answer_6
-    - intent: dont_know
+  - intent: answer_6
   - action: utter_question_7
-  - or:
-    - intent: answer_7
-    - intent: dont_know
+  - intent: answer_7
   - action: utter_question_8
-  - or:
-    - intent: answer_8
-    - intent: dont_know
-  - action: utter_question_9
-  - or:
-    - intent: answer_9
-    - intent: dont_know
-  - action: utter_question_10
-  - or:
-    - intent: answer_10
-    - intent: dont_know
-  - action: utter_question_11
-  - or:
-    - intent: answer_11
-    - intent: dont_know
-  - action: utter_question_12
-  - or:
-    - intent: answer_12
-    - intent: dont_know
-  - action: utter_question_13
-  - or:
-    - intent: answer_13
-    - intent: dont_know
-  - action: utter_question_14
-  - or:
-    - intent: answer_14
-    - intent: dont_know
-  - action: utter_question_15
-  - or:
-    - intent: answer_15
-    - intent: dont_know
-  - action: utter_question_16
-  - or:
-    - intent: answer_16
-    - intent: dont_know
-  - action: utter_question_17
-  - or:
-    - intent: answer_17
-    - intent: dont_know
-  - action: utter_question_18
-  - or:
-    - intent: answer_18
-    - intent: dont_know
-  - action: utter_question_19
-  - or:
-    - intent: answer_19
-    - intent: dont_know
-  - action: utter_question_20
-  - or:
-    - intent: answer_20
-    - intent: dont_know
-  - action: utter_question_21
-  - or:
-    - intent: answer_21
-    - intent: dont_know
-  - action: utter_question_22
-  - or:
-    - intent: answer_22
-    - intent: dont_know
-  - action: utter_question_23
-  - or:
-    - intent: answer_23
-    - intent: dont_know
-  - action: utter_question_24
-  - or:
-    - intent: answer_24
-    - intent: dont_know
-  - action: utter_question_25
-  - or:
-    - intent: answer_25
-    - intent: dont_know
-  - action: utter_question_26
-  - or:
-    - intent: answer_26
-    - intent: dont_know
-  - action: utter_question_27
-  - or:
-    - intent: answer_27
-    - intent: dont_know
-  - action: utter_question_28
-  - or:
-    - intent: answer_28
-    - intent: dont_know
-  - action: utter_question_29
-  - or:
-    - intent: answer_29
-    - intent: dont_know
+  - intent: answer_8
   - action: utter_question_30
-  - or:
-    - intent: answer_30
-    - intent: dont_know
+  - intent: answer_30
   - action: utter_end_interview
   - intent: affirm
   - action: utter_goodbye
