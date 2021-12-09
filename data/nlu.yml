@@ -104,7 +104,7 @@ nlu:
     - DML
     - Query
     - RElational Schema
-    - DDl
+    - DDL
     - Data Definition Language
 
 - intent: answer_2
