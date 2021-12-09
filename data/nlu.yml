@@ -97,6 +97,7 @@ nlu:
     - Please Start
     - yes sure
     - ofcourse
+    - yes please
     - sure
 
 - intent: answer_1
@@ -104,7 +105,7 @@ nlu:
     - DML
     - Query
     - RElational Schema
-    - DDl
+    - DDL
     - Data Definition Language
 
 - intent: answer_2
