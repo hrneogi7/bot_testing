@@ -103,9 +103,10 @@ nlu:
   examples: |
     - DML
     - Query
-    - RElational Schema
+    - Relational Schema
     - DDL
     - Data Definition Language
+
 
 - intent: answer_2
   examples: |
@@ -113,6 +114,7 @@ nlu:
     - Physical Level
     - File Level
     - Logical Level
+
 
 - intent: answer_3
   examples: |

@@ -1,0 +1,454 @@
+version: "3.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: interview path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: start_interview
+  - action: utter_start_interview
+  - intent: affirm
+  - action: utter_question_1
+  - intent: answer_1
+  - or:
+    - slot_was_set:
+        - a1: DML
+    - slot_was_set:
+        - a1: DDL
+    - intent: dont_know
+    - slot_was_set:
+        - a1: Query
+    - slot_was_set:
+        - a1: Relational Schema
+
+  - action: utter_question_2
+  - intent: answer_2
+  - or:
+    - slot_was_set:
+        - a2: Conceptual Level
+    - slot_was_set:
+        - a2: Physical Level
+    - slot_was_set:
+        - a2: File Level
+    - slot_was_set:
+        - a2: Logical Level
+    - intent: dont_know
+  - action: utter_question_3
+  - intent: answer_3
+  - or:
+    - slot_was_set:
+        - a3: Data Bank Administrator
+    - slot_was_set:
+        - a3: Database Administrator
+    - slot_was_set:
+        - a3: Data Administrator
+    - slot_was_set:
+        - a3: None of the above
+    - intent: dont_know
+
+  - action: utter_question_4
+  - intent: answer_4
+  - or:
+    - slot_was_set:
+        - a4: Delete
+    - slot_was_set:
+        - a4: All of the above
+    - slot_was_set:
+        - a4: Remove
+    - slot_was_set:
+        - a4: Drop
+    - intent: dont_know
+  - action: utter_question_5
+  - intent: answer_5
+  - or:
+    - slot_was_set:
+        - a5: Savepoint
+    - slot_was_set:
+        - a5: Commit
+    - slot_was_set:
+        - a5: Rollback
+    - slot_was_set:
+        - a5: Both A & B
+    - intent: dont_know
+  - checkpoint: interview phase 2
+
+- story: interview path 2
+  steps:
+  - checkpoint: interview phase 2
+
+  - action: utter_question_6
+  - intent: answer_6
+  - or:
+    - slot_was_set:
+        - a6: chief network
+    - slot_was_set:
+        - a6: prime network
+    - intent: dont_know
+    - slot_was_set:
+        - a6: prior network
+    - slot_was_set:
+        - a6: overlay network
+
+  - action: utter_question_7
+  - intent: answer_7
+  - or:
+    - slot_was_set:
+        - a7: unicast network
+    - slot_was_set:
+        - a7: broadcast network
+    - slot_was_set:
+        - a7: multicast network
+    - slot_was_set:
+        - a7: none of the mentioned
+    - intent: dont_know
+  - action: utter_question_8
+  - intent: answer_8
+  - or:
+    - slot_was_set:
+        - a8: Circuit switching
+    - slot_was_set:
+        - a8: Data switching
+    - slot_was_set:
+        - a8: Packet switching
+    - slot_was_set:
+        - a8: Packet & Circuit switching
+    - intent: dont_know
+
+  - action: utter_question_9
+  - intent: answer_9
+  - or:
+    - slot_was_set:
+        - a9: local area network
+    - slot_was_set:
+        - a9: virtual private network
+    - slot_was_set:
+        - a9: personal area network
+    - slot_was_set:
+        - a9: none of the mentioned
+    - intent: dont_know
+  - action: utter_question_10
+  - intent: answer_10
+  - or:
+    - slot_was_set:
+        - a10: 36.8
+    - slot_was_set:
+        - a10: 35.8
+    - slot_was_set:
+        - a10: 35.5
+    - slot_was_set:
+        - a10: 37.8
+    - intent: dont_know
+  - checkpoint: interview phase 3
+
+- story: interview path 3
+  steps:
+  - checkpoint: interview phase 3
+
+  - action: utter_question_11
+  - intent: answer_11
+  - or:
+    - slot_was_set:
+        - a11: Empty collection
+    - slot_was_set:
+        - a11: Underflow
+    - intent: dont_know
+    - slot_was_set:
+        - a11: Overflow
+    - slot_was_set:
+        - a11: Garbage Collection
+
+  - action: utter_question_12
+  - intent: answer_12
+  - or:
+    - slot_was_set:
+        - a12: 1
+    - slot_was_set:
+        - a12: 40
+    - slot_was_set:
+        - a12: 74
+    - slot_was_set:
+        - a12: -18
+    - intent: dont_know
+  - action: utter_question_13
+  - intent: answer_13
+  - or:
+    - slot_was_set:
+        - a13: n+O(n)
+    - slot_was_set:
+        - a13: 2n+O(n)
+    - slot_was_set:
+        - a13: n/2
+    - slot_was_set:
+        - a13: n
+    - intent: dont_know
+
+  - action: utter_question_14
+  - intent: answer_14
+  - or:
+    - slot_was_set:
+        - a14: (i+1)/2
+    - slot_was_set:
+        - a14: (i-1)/2
+    - slot_was_set:
+        - a14: i/2
+    - slot_was_set:
+        - a14: 2i/2
+    - intent: dont_know
+  - action: utter_question_15
+  - intent: answer_15
+  - or:
+    - slot_was_set:
+        - a15: O(log n)
+    - slot_was_set:
+        - a15: O(h)
+    - slot_was_set:
+        - a15: O(log n) & O(h)
+    - slot_was_set:
+        - a15: O(n)
+    - intent: dont_know
+  - checkpoint: interview phase 4
+
+- story: interview path 4
+  steps:
+  - checkpoint: interview phase 4
+
+  - action: utter_question_16
+  - intent: answer_16
+  - or:
+    - slot_was_set:
+        - a16: 4
+    - slot_was_set:
+        - a16: 5
+    - intent: dont_know
+    - slot_was_set:
+        - a16: 8
+    - slot_was_set:
+        - a16: 12
+
+  - action: utter_question_17
+  - intent: answer_17
+  - or:
+    - slot_was_set:
+        - a17: prompt
+    - slot_was_set:
+        - a17: kernel
+    - slot_was_set:
+        - a17: shell
+    - slot_was_set:
+        - a17: command
+    - intent: dont_know
+  - action: utter_question_18
+  - intent: answer_18
+  - or:
+    - slot_was_set:
+        - a18: To prevent deadlock
+    - slot_was_set:
+        - a18: To deadlock recovery
+    - slot_was_set:
+        - a18: To solve the deadlock
+    - slot_was_set:
+        - a18: n
+    - intent: dont_know
+
+  - action: utter_question_19
+  - intent: answer_19
+  - or:
+    - slot_was_set:
+        - a19: Windows
+    - slot_was_set:
+        - a19: MAC
+    - slot_was_set:
+        - a19: Ms-Dos
+    - slot_was_set:
+        - a19: None of these
+    - intent: dont_know
+  - action: utter_question_20
+  - intent: answer_20
+  - or:
+    - slot_was_set:
+        - a20: Mutual exclusion
+    - slot_was_set:
+        - a20: Hold and wait
+    - slot_was_set:
+        - a20: All of these
+    - slot_was_set:
+        - a20: No preemption
+    - slot_was_set:
+        - a20: Circular wait
+    - intent: dont_know
+  - checkpoint: interview phase 5
+
+- story: interview path 5
+  steps:
+  - checkpoint: interview phase 5
+
+  - action: utter_question_21
+  - intent: answer_21
+  - or:
+    - slot_was_set:
+        - a21: Efficient Code
+    - slot_was_set:
+        - a21: Code reusability
+    - intent: dont_know
+    - slot_was_set:
+        - a21: Modularity
+    - slot_was_set:
+        - a21: Duplicate/Redundant data
+
+  - action: utter_question_22
+  - intent: answer_22
+  - or:
+    - slot_was_set:
+        - a22: Kotlin
+    - slot_was_set:
+        - a22: SmallTalk
+    - slot_was_set:
+        - a22: Java
+    - slot_was_set:
+        - a22: C++
+    - intent: dont_know
+  - action: utter_question_23
+  - intent: answer_23
+  - or:
+    - slot_was_set:
+        - a23: It allows code to be written outside classes
+    - slot_was_set:
+        - a23: It supports usual declaration of primitive data types
+    - slot_was_set:
+        - a23: It does not support pointers
+    - slot_was_set:
+        - a23: It doesn’t support all types of inheritance
+    - intent: dont_know
+
+  - action: utter_question_24
+  - intent: answer_24
+  - or:
+    - slot_was_set:
+        - a24: Function Overloading
+    - slot_was_set:
+        - a24: Function Overridin
+    - slot_was_set:
+        - a24: Operator Overloading
+    - slot_was_set:
+        - a24: Operator Overriding
+    - intent: dont_know
+  - action: utter_question_25
+  - intent: answer_25
+  - or:
+    - slot_was_set:
+        - a25: False
+    - slot_was_set:
+        - a25: True
+    - slot_was_set:
+        - a25: 0
+    - slot_was_set:
+        - a25: invalid code
+    - intent: dont_know
+  - checkpoint: interview phase 6
+
+- story: interview path 6
+  steps:
+  - checkpoint: interview phase 6
+
+  - action: utter_question_26
+  - intent: answer_26
+  - or:
+    - slot_was_set:
+        - a26: 92 km
+    - slot_was_set:
+        - a26: 60 km
+    - intent: dont_know
+    - slot_was_set:
+        - a26: 94 km
+    - slot_was_set:
+        - a26: 96 km
+
+  - action: utter_question_27
+  - intent: answer_27
+  - or:
+    - slot_was_set:
+        - a27: Rs. 1250
+    - slot_was_set:
+        - a27: Rs.1300
+    - slot_was_set:
+        - a27: Rs. 1200
+    - slot_was_set:
+        - a27: Rs. 1150
+    - intent: dont_know
+  - action: utter_question_28
+  - intent: answer_28
+  - or:
+    - slot_was_set:
+        - a28: antipode
+    - slot_was_set:
+        - a28: pole
+    - slot_was_set:
+        - a28: equator
+    - slot_was_set:
+        - a28: reverse
+    - intent: dont_know
+
+  - action: utter_question_29
+  - intent: answer_29
+  - or:
+    - slot_was_set:
+        - a29: Son
+    - slot_was_set:
+        - a29: Brother
+    - slot_was_set:
+        - a29: Brother-in-law
+    - slot_was_set:
+        - a29: Father
+    - intent: dont_know
+  - action: utter_question_30
+  - intent: answer_30
+  - or:
+    - slot_was_set:
+        - a30: 990
+    - slot_was_set:
+        - a30: 900
+    - slot_was_set:
+        - a30: 940
+    - slot_was_set:
+        - a30: 840
+    - intent: dont_know
+  - action: utter_end_interview
+  - action: utter_goodbye
+
+
+
+
+
+
+
+
