@@ -41,6 +41,202 @@ intents:
   - answer_30
   - dont_know
 
+entities:
+  - a1
+  - a2
+  - a3
+  - a4
+  - a5
+  - a6
+  - a7
+  - a8
+  - a9
+  - a10
+  - a11
+  - a12
+  - a13
+  - a14
+  - a15
+  - a16
+  - a17
+  - a18
+  - a19
+  - a20
+  - a21
+  - a22
+  - a23
+  - a24
+  - a25
+  - a26
+  - a27
+  - a28
+  - a29
+  - a30
+
+slots:
+  a1:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: a1
+
+
+  a2:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a2
+
+  a3:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a3
+
+  a4:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a4
+
+  a5:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a5
+
+  a6:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a6
+
+  a7:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a7
+
+  a8:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a8
+
+  a9:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a9
+
+  a10:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a10
+  a11:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a11
+  a12:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a12
+  a13:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a13
+  a14:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a14
+  a15:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a15
+  a16:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a16
+  a17:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a17
+  a18:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a18
+
+  a19:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a19
+  a20:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a20
+  a21:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a21
+  a22:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a22
+  a23:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a23
+  a24:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a24
+  a25:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a25
+  a26:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a26
+  a27:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a27
+  a28:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a28
+  a29:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a29
+  a30:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a30
+
+
 
 responses:
   utter_greet:
