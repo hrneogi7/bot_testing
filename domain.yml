@@ -16,29 +16,29 @@ intents:
   - answer_5
   - answer_6
   - answer_7
-  - answer_8
-  - answer_9
-  - answer_10
-  - answer_11
-  - answer_12
-  - answer_13
-  - answer_14
-  - answer_15
-  - answer_16
-  - answer_17
-  - answer_18
-  - answer_19
-  - answer_20
-  - answer_21
-  - answer_22
-  - answer_23
-  - answer_24
-  - answer_25
-  - answer_26
-  - answer_27
-  - answer_28
-  - answer_29
-  - answer_30
+  # - answer_8
+  # - answer_9
+  # - answer_10
+  # - answer_11
+  # - answer_12
+  # - answer_13
+  # - answer_14
+  # - answer_15
+  # - answer_16
+  # - answer_17
+  # - answer_18
+  # - answer_19
+  # - answer_20
+  # - answer_21
+  # - answer_22
+  # - answer_23
+  # - answer_24
+  # - answer_25
+  # - answer_26
+  # - answer_27
+  # - answer_28
+  # - answer_29
+  # - answer_30
   - dont_know
 
 entities:
@@ -49,29 +49,29 @@ entities:
   - a5
   - a6
   - a7
-  - a8
-  - a9
-  - a10
-  - a11
-  - a12
-  - a13
-  - a14
-  - a15
-  - a16
-  - a17
-  - a18
-  - a19
-  - a20
-  - a21
-  - a22
-  - a23
-  - a24
-  - a25
-  - a26
-  - a27
-  - a28
-  - a29
-  - a30
+  # - a8
+  # - a9
+  # - a10
+  # - a11
+  # - a12
+  # - a13
+  # - a14
+  # - a15
+  # - a16
+  # - a17
+  # - a18
+  # - a19
+  # - a20
+  # - a21
+  # - a22
+  # - a23
+  # - a24
+  # - a25
+  # - a26
+  # - a27
+  # - a28
+  # - a29
+  # - a30
 
 slots:
   a1:
@@ -117,126 +117,138 @@ slots:
       - type: from_entity
         entity: a7
 
-  a8:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: a8
+  # a8:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: a8
 
-  a9:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: a9
+  # a9:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: a9
 
-  a10:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: a10
-  a11:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: a11
-  a12:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: a12
-  a13:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: a13
-  a14:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: a14
-  a15:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: a15
-  a16:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: a16
-  a17:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: a17
-  a18:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: a18
+  # a10:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: a10
+  # a11:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: a11
+  # a12:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: a12
+  # a13:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: a13
+  # a14:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: a14
+  # a15:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: a15
+  # a16:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: a16
+  # a17:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: a17
+  # a18:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: a18
 
-  a19:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: a19
-  a20:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: a20
-  a21:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: a21
-  a22:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: a22
-  a23:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: a23
-  a24:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: a24
-  a25:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: a25
-  a26:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: a26
-  a27:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: a27
-  a28:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: a28
-  a29:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: a29
-  a30:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: a30
+  # a19:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: a19
+  # a20:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: a20
+  # a21:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: a21
+  # a22:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: a22
+  # a23:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: a23
+  # a24:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: a24
+  # a25:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: a25
+  # a26:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: a26
+  # a27:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: a27
+  # a28:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: a28
+  # a29:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: a29
+  # a30:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: a30
 
+forms:
+  interview_form:
+    required_slots:
+      - a1
+      - a2
+      - a3
+      - a4
+      - a5
+      - a6
+      - a7
 
+actions:
+  - action_submit
 
 responses:
   utter_greet:
@@ -259,80 +271,83 @@ responses:
   - text: "I am a bot, powered by Rasa."
 
   utter_start_interview:
-  - text: "Sure shall we proceed?"
+  - text: "ok! so we are starting the interview"
 
-  utter_question_1:
-  - text: "Which of the following is generally used for performing tasks like creating the structure of the relations, deleting relation?a)DML(Data Manipulation Language)b)Queryc)Relational Schemad)DDL(Data Definition Language)"
+  utter_ask_a1:
+  - text: "Which of the following is generally used for performing tasks like creating the structure of the relations, deleting relation?\na)DML(Data Manipulation Language)\nb)Query\nc)Relational Schemad\nd)DDL(Data Definition Language)"
 
-  utter_question_2:
-  - text: "Which of the following refers to the level of data abstraction that describes exactly how the data actually stored?a)	Conceptual Levelb)Physical Levelc)File Leveld)Logical Level"
+  utter_ask_a2:
+  - text: "Which of the following refers to the level of data abstraction that describes exactly how the data actually stored?\na)	Conceptual Level\nb)Physical Level\nc)File Level\nd)Logical Level"
 
-  utter_question_3:
-  - text: "To which of the following the term DBA referred?a)Data Bank Administratorb)Database Administratorc)Data Administratord)None of the above"
+  utter_ask_a3:
+  - text: "To which of the following the term DBA referred?\na)Data Bank Administrator\nb)Database Administrator\nc)Data Administrator\nd)None of the above"
 
-  utter_question_4:
-  - text: "Which one of the following commands is used for removing (or deleting) a relation forms the SQL database?a)Deleteb)Removec)Dropd)All of the above"
+  utter_ask_a4:
+  - text: "Which one of the following commands is used for removing (or deleting) a relation forms the SQL database?\na)Delete\nb)Remove\nc)Drop\nd)All of the above"
 
-  utter_question_5:
-  - text: "Which one of the following commands is used to restore the database to the last committed state?a)Savepointb)Commitc)Rollbackd)Both A & B2"
+  utter_ask_a5:
+  - text: "Which one of the following commands is used to restore the database to the last committed state?\na)Savepoint\nb)Commit\nc)Rollback\nd)Both A & B2"
 
-  utter_question_6:
-  - text: "Which one of the following computer network is built on the top of another network?a)chief networkb)prime networkc)prior networkd)overlay network"
+  utter_ask_a6:
+  - text: "Which one of the following computer network is built on the top of another network?\na)chief network\nb)prime network\nc)prior network\nd)overlay network"
 
-  utter_question_7:
-  - text: "Communication channel is shared by all machines on the network in?a)unicast networkb)broadcast networkc)multicast networkd)none of the mentioned"
+  utter_ask_a7:
+  - text: "Communication channel is shared by all machines on the network in?\na)unicast network\nb)broadcast network\nc)multicast network\nd)none of the mentioned"
 
-  utter_question_8:
-  - text: "Multiplexing is used in?a)Circuit switchingb)Data switchingc)Packet switchingd)Packet & Circuit switching"
+  # utter_question_8:
+  # - text: "Multiplexing is used in?a)Circuit switchingb)Data switchingc)Packet switchingd)Packet & Circuit switching"
 
-  utter_question_9:
-  - text: "Bluetooth is an example of?a)local area networkb)virtual private networkc)personal area networkd)none of the mentioned"
-  utter_question_10:
-  - text: "What is the maximum efficiency of slotted aloha at G = 1?a)36.8b)35.8c)35.5d)37.8"
+  # utter_question_9:
+  # - text: "Bluetooth is an example of?a)local area networkb)virtual private networkc)personal area networkd)none of the mentioned"
+  # utter_question_10:
+  # - text: "What is the maximum efficiency of slotted aloha at G = 1?a)36.8b)35.8c)35.5d)37.8"
 
-  utter_question_11:
-  - text: "In a stack, if a user tries to remove an element from an empty stack it is called?a)Empty collectionb)Underflowc)Overflowd)Garbage Collection"
+  # utter_question_11:
+  # - text: "In a stack, if a user tries to remove an element from an empty stack it is called?a)Empty collectionb)Underflowc)Overflowd)Garbage Collection"
 
-  utter_question_12:
-  - text: "What is the value of the postfix expression 6 3 2 4 + – *?a)1b)40c)74d)-18"
+  # utter_question_12:
+  # - text: "What is the value of the postfix expression 6 3 2 4 + – *?a)1b)40c)74d)-18"
 
-  utter_question_13:
-  - text: "How many bits would a succinct binary tree occupy?a)n+O(n)b)2n+O(n)c)n/2d)n"
-  utter_question_14:
-  - text: "If binary trees are represented in arrays, using what formula can a parent node be located in an array?a)(i+1)/2b)(i-1)/2c)i/2d)2i/2"
+  # utter_question_13:
+  # - text: "How many bits would a succinct binary tree occupy?a)n+O(n)b)2n+O(n)c)n/2d)n"
+  # utter_question_14:
+  # - text: "If binary trees are represented in arrays, using what formula can a parent node be located in an array?a)(i+1)/2b)(i-1)/2c)i/2d)2i/2"
 
-  utter_question_15:
-  - text: "What is the complexity of adding an element to the heap.?a)O(log n)b)O(h)c)O(log n) & O(h)d)O(n)"
-  utter_question_16:
-  - text: "What is the maximum length of the filename in DOS?a)4b)5c)8d)12"
-  utter_question_17:
-  - text: "What else is a command interpreter called?a)promptb)kernelc)shelld)command"
-  utter_question_18:
-  - text: "Banker's algorithm is used?a)To prevent deadlockb)To deadlock recoveryc)To solve the deadlockd)None of these"
-  utter_question_19:
-  - text: "Which of the following is a single-user operating system?a)Windowsb)MACc)Ms-Dosd)None of these"
-  utter_question_20:
-  - text: "Which of the following is a condition that causes deadlock?a)Mutual exclusionb)Hold and waitc)Circular waitd)No preemptione)All of these"
-  utter_question_21:
-  - text: "Which is not a feature of OOP in general definitions?a)Efficient Codeb)Code reusabilityc)Modularityd)Duplicate/Redundant data"
-  utter_question_22:
-  - text: "Which was the first purely object oriented programming language developed?a)Kotlinb)SmallTalkc)Javad)C++"
-  utter_question_23:
-  - text: "Why Java is Partially OOP language?a)It allows code to be written outside classesb)It supports usual declaration of primitive data typesc)It does not support pointersd)It doesn’t support all types of inheritance"
-  utter_question_24:
-  - text: "Which feature in OOP is used to allocate additional functions to a predefined operator in any language?a)Function Overloadingb)Function Overridingc)Operator Overloadingd)Operator Overriding"
-  utter_question_25:
-  - text: "What will be the output of this function : all([2,4,0,6])?a)Falseb)Truec)0d)Invalid code"
-  utter_question_26:
-  - text: "A man covers a distance of 110 km between two cities in 10 hours. He travelled partly on foot at 9 km/hr and partly on a bicycle at 15 km/hr. Find the distance travelled on foot.a)92 kmb)60 kmc)94 kmd)96 km"
-  utter_question_27:
-  - text: "On a certain sum of money the compound interest Rs. 318 is earned in 2 years. If the rate of interest is 12%, what is the principal amount?a)Rs. 1250b)Rs.1300c)Rs. 1200d)Rs. 1150"
-  utter_question_28:
-  - text: "The direct opposite (diametrically opposite) of something.a)antipodeb)polec)equatord)reverse"
-  utter_question_29:
-  - text: "Pointing to a photograph of a woman Rohan says, She is the sister-in-law of the only daughter of my mother-in-law's husband. How is the Rohan related to the woman?a)Sonb)Brotherc)Brother-in-lawd)Father"
-  utter_question_30:
-  - text: "Which number should come next in the series, 12, 36,109, 329, _?a)990b)900c)940d)890"
+  # utter_question_15:
+  # - text: "What is the complexity of adding an element to the heap.?a)O(log n)b)O(h)c)O(log n) & O(h)d)O(n)"
+  # utter_question_16:
+  # - text: "What is the maximum length of the filename in DOS?a)4b)5c)8d)12"
+  # utter_question_17:
+  # - text: "What else is a command interpreter called?a)promptb)kernelc)shelld)command"
+  # utter_question_18:
+  # - text: "Banker's algorithm is used?a)To prevent deadlockb)To deadlock recoveryc)To solve the deadlockd)None of these"
+  # utter_question_19:
+  # - text: "Which of the following is a single-user operating system?a)Windowsb)MACc)Ms-Dosd)None of these"
+  # utter_question_20:
+  # - text: "Which of the following is a condition that causes deadlock?a)Mutual exclusionb)Hold and waitc)Circular waitd)No preemptione)All of these"
+  # utter_question_21:
+  # - text: "Which is not a feature of OOP in general definitions?a)Efficient Codeb)Code reusabilityc)Modularityd)Duplicate/Redundant data"
+  # utter_question_22:
+  # - text: "Which was the first purely object oriented programming language developed?a)Kotlinb)SmallTalkc)Javad)C++"
+  # utter_question_23:
+  # - text: "Why Java is Partially OOP language?a)It allows code to be written outside classesb)It supports usual declaration of primitive data typesc)It does not support pointersd)It doesn’t support all types of inheritance"
+  # utter_question_24:
+  # - text: "Which feature in OOP is used to allocate additional functions to a predefined operator in any language?a)Function Overloadingb)Function Overridingc)Operator Overloadingd)Operator Overriding"
+  # utter_question_25:
+  # - text: "What will be the output of this function : all([2,4,0,6])?a)Falseb)Truec)0d)Invalid code"
+  # utter_question_26:
+  # - text: "A man covers a distance of 110 km between two cities in 10 hours. He travelled partly on foot at 9 km/hr and partly on a bicycle at 15 km/hr. Find the distance travelled on foot.a)92 kmb)60 kmc)94 kmd)96 km"
+  # utter_question_27:
+  # - text: "On a certain sum of money the compound interest Rs. 318 is earned in 2 years. If the rate of interest is 12%, what is the principal amount?a)Rs. 1250b)Rs.1300c)Rs. 1200d)Rs. 1150"
+  # utter_question_28:
+  # - text: "The direct opposite (diametrically opposite) of something.a)antipodeb)polec)equatord)reverse"
+  # utter_question_29:
+  # - text: "Pointing to a photograph of a woman Rohan says, She is the sister-in-law of the only daughter of my mother-in-law's husband. How is the Rohan related to the woman?a)Sonb)Brotherc)Brother-in-lawd)Father"
+  # utter_question_30:
+  # - text: "Which number should come next in the series, 12, 36,109, 329, _?a)990b)900c)940d)890"
+  utter_details_answer:
+  - text: "Your Answers \nQuestion1: {q1},\nQuestion2: {q2}, \nQuestion3: {q3}, \nQuestion4: {q4}, \nQuestion5: {q5}, \nQuestion6: {q6}, \nQuestion7: {q7}\n\nYour total score: {Score}"
+
   utter_end_interview:
   - text: "Ok let's end the interview here, Thankyou for your time."
 

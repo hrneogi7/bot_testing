@@ -163,147 +163,147 @@ stories:
 #   - action: utter_goodbye
 
 
-- story: interview path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
-  - intent: start_interview
-  - action: utter_start_interview
-  - intent: affirm
-  - action: utter_question_1
-  - intent: answer_1
-  - or:
-    - slot_was_set:
-        - a1: DML
-    - slot_was_set:
-        - a1: DDL
-    - intent: dont_know
-    - slot_was_set:
-        - a1: Query
-    - slot_was_set:
-        - a1: Relational Schema
+# - story: interview path 1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_great
+#   - action: utter_happy
+#   - intent: start_interview
+#   - action: utter_start_interview
+#   - intent: affirm
+#   - action: utter_question_1
+#   - intent: answer_1
+#   - or:
+#     - slot_was_set:
+#         - a1: DML
+#     - slot_was_set:
+#         - a1: DDL
+#     - intent: dont_know
+#     - slot_was_set:
+#         - a1: Query
+#     - slot_was_set:
+#         - a1: Relational Schema
 
-  - action: utter_question_2
-  - intent: answer_2
-  - or:
-    - slot_was_set:
-        - a2: Conceptual Level
-    - slot_was_set:
-        - a2: Physical Level
-    - slot_was_set:
-        - a2: File Level
-    - slot_was_set:
-        - a2: Logical Level
-    - intent: dont_know
-  - action: utter_question_3
-  - intent: answer_3
-  - or:
-    - slot_was_set:
-        - a3: Data Bank Administrator
-    - slot_was_set:
-        - a3: Database Administrator
-    - slot_was_set:
-        - a3: Data Administrator
-    - slot_was_set:
-        - a3: None of the above
-    - intent: dont_know
+#   - action: utter_question_2
+#   - intent: answer_2
+#   - or:
+#     - slot_was_set:
+#         - a2: Conceptual Level
+#     - slot_was_set:
+#         - a2: Physical Level
+#     - slot_was_set:
+#         - a2: File Level
+#     - slot_was_set:
+#         - a2: Logical Level
+#     - intent: dont_know
+#   - action: utter_question_3
+#   - intent: answer_3
+#   - or:
+#     - slot_was_set:
+#         - a3: Data Bank Administrator
+#     - slot_was_set:
+#         - a3: Database Administrator
+#     - slot_was_set:
+#         - a3: Data Administrator
+#     - slot_was_set:
+#         - a3: None of the above
+#     - intent: dont_know
 
-  - action: utter_question_4
-  - intent: answer_4
-  - or:
-    - slot_was_set:
-        - a4: Delete
-    - slot_was_set:
-        - a4: All of the above
-    - slot_was_set:
-        - a4: Remove
-    - slot_was_set:
-        - a4: Drop
-    - intent: dont_know
-  - action: utter_question_5
-  - intent: answer_5
-  - or:
-    - slot_was_set:
-        - a5: Savepoint
-    - slot_was_set:
-        - a5: Commit
-    - slot_was_set:
-        - a5: Rollback
-    - slot_was_set:
-        - a5: Both A & B
-    - intent: dont_know
-  - checkpoint: interview phase 2
+#   - action: utter_question_4
+#   - intent: answer_4
+#   - or:
+#     - slot_was_set:
+#         - a4: Delete
+#     - slot_was_set:
+#         - a4: All of the above
+#     - slot_was_set:
+#         - a4: Remove
+#     - slot_was_set:
+#         - a4: Drop
+#     - intent: dont_know
+#   - action: utter_question_5
+#   - intent: answer_5
+#   - or:
+#     - slot_was_set:
+#         - a5: Savepoint
+#     - slot_was_set:
+#         - a5: Commit
+#     - slot_was_set:
+#         - a5: Rollback
+#     - slot_was_set:
+#         - a5: Both A & B
+#     - intent: dont_know
+#   - checkpoint: interview phase 2
 
-- story: interview path 2
-  steps:
-  - checkpoint: interview phase 2
+# - story: interview path 2
+#   steps:
+#   - checkpoint: interview phase 2
 
-  - action: utter_question_6
-  - intent: answer_6
-  - or:
-    - slot_was_set:
-        - a6: chief network
-    - slot_was_set:
-        - a6: prime network
-    - intent: dont_know
-    - slot_was_set:
-        - a6: prior network
-    - slot_was_set:
-        - a6: overlay network
+#   - action: utter_question_6
+#   - intent: answer_6
+#   - or:
+#     - slot_was_set:
+#         - a6: chief network
+#     - slot_was_set:
+#         - a6: prime network
+#     - intent: dont_know
+#     - slot_was_set:
+#         - a6: prior network
+#     - slot_was_set:
+#         - a6: overlay network
 
-  - action: utter_question_7
-  - intent: answer_7
-  - or:
-    - slot_was_set:
-        - a7: unicast network
-    - slot_was_set:
-        - a7: broadcast network
-    - slot_was_set:
-        - a7: multicast network
-    - slot_was_set:
-        - a7: none of the mentioned
-    - intent: dont_know
-  - action: utter_question_8
-  - intent: answer_8
-  - or:
-    - slot_was_set:
-        - a8: Circuit switching
-    - slot_was_set:
-        - a8: Data switching
-    - slot_was_set:
-        - a8: Packet switching
-    - slot_was_set:
-        - a8: Packet & Circuit switching
-    - intent: dont_know
+#   - action: utter_question_7
+#   - intent: answer_7
+#   - or:
+#     - slot_was_set:
+#         - a7: unicast network
+#     - slot_was_set:
+#         - a7: broadcast network
+#     - slot_was_set:
+#         - a7: multicast network
+#     - slot_was_set:
+#         - a7: none of the mentioned
+#     - intent: dont_know
+#   - action: utter_question_8
+#   - intent: answer_8
+#   - or:
+#     - slot_was_set:
+#         - a8: Circuit switching
+#     - slot_was_set:
+#         - a8: Data switching
+#     - slot_was_set:
+#         - a8: Packet switching
+#     - slot_was_set:
+#         - a8: Packet & Circuit switching
+#     - intent: dont_know
 
-  - action: utter_question_9
-  - intent: answer_9
-  - or:
-    - slot_was_set:
-        - a9: local area network
-    - slot_was_set:
-        - a9: virtual private network
-    - slot_was_set:
-        - a9: personal area network
-    - slot_was_set:
-        - a9: none of the mentioned
-    - intent: dont_know
-  - action: utter_question_10
-  - intent: answer_10
-  - or:
-    - slot_was_set:
-        - a10: 36.8
-    - slot_was_set:
-        - a10: 35.8
-    - slot_was_set:
-        - a10: 35.5
-    - slot_was_set:
-        - a10: 37.8
-    - intent: dont_know
-  - action: utter_end_interview
-  - action: utter_goodbye
+#   - action: utter_question_9
+#   - intent: answer_9
+#   - or:
+#     - slot_was_set:
+#         - a9: local area network
+#     - slot_was_set:
+#         - a9: virtual private network
+#     - slot_was_set:
+#         - a9: personal area network
+#     - slot_was_set:
+#         - a9: none of the mentioned
+#     - intent: dont_know
+#   - action: utter_question_10
+#   - intent: answer_10
+#   - or:
+#     - slot_was_set:
+#         - a10: 36.8
+#     - slot_was_set:
+#         - a10: 35.8
+#     - slot_was_set:
+#         - a10: 35.5
+#     - slot_was_set:
+#         - a10: 37.8
+#     - intent: dont_know
+#   - action: utter_end_interview
+#   - action: utter_goodbye
 
 
 
