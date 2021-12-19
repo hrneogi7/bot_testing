@@ -190,24 +190,24 @@ nlu:
 
 - intent: answer_13
   examples: |
-    - [n+O(n)]{"entity":"a13"}
-    - [2n+O(n)]{"entity":"a13"}
-    - [n/2]{"entity":"a13"}
-    - [n]{"entity":"a13"}
+    - [Transaction Control Language]{"entity":"a13"}
+    - [Transaction Central Language]{"entity":"a13"}
+    - [Transmission Control Language]{"entity":"a13"}
+    - [Ternary Control Language]{"entity":"a13"}
 
 - intent: answer_14
   examples: |
-    - [(i+1)/2]{"entity":"a14"}
-    - [(i-1)/2]{"entity":"a14"}
-    - [i/2]{"entity":"a14"}
-    - [2i/2]{"entity":"a14"}
+    - [Primary key]{"entity":"a14"}
+    - [Foreign key{"entity":"a14"}
+    - [Secondary key]{"entity":"a14"}
+    - [None of the above]{"entity":"a14"}
 
 - intent: answer_15
   examples: |
-    - [O(log n)]{"entity":"a15"}
-    - [O(h)]{"entity":"a15"}
-    - [O(log n) & O(h)]{"entity":"a15"}
-    - [O(n)]{"entity":"a15"}
+    - [Repeater]{"entity":"a15"}
+    - [Gateway]{"entity":"a15"}
+    - [Bridge]{"entity":"a15"}
+    - [Hub]{"entity":"a15"}
 
 - intent: answer_16
   examples: |

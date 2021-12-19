@@ -92,11 +92,11 @@ class ActionSubmit(Action):
             score=score+1
         if a12=='-18':
             score=score+1
-        if a13=='2n+O(n)':
+        if a13=='Transaction Control Language':
             score=score+1
-        if a14=='(i-1)/2':
+        if a14=='Foreign key':
             score=score+1
-        if a15=='O(logn) & O(n)':
+        if a15=='Gateway':
             score=score+1
         if a16=='8':
             score=score+1
