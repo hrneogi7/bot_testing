@@ -1,4 +1,4 @@
-version: "3.0"
+hiversion: "3.0"
 
 intents:
   - greet
@@ -16,19 +16,19 @@ intents:
   - answer_5
   - answer_6
   - answer_7
-  # - answer_8
-  # - answer_9
-  # - answer_10
-  # - answer_11
-  # - answer_12
-  # - answer_13
-  # - answer_14
-  # - answer_15
-  # - answer_16
-  # - answer_17
-  # - answer_18
-  # - answer_19
-  # - answer_20
+  - answer_8
+  - answer_9
+  - answer_10
+  - answer_11
+  - answer_12
+  - answer_13
+  - answer_14
+  - answer_15
+  - answer_16
+  - answer_17
+  - answer_18
+  - answer_19
+  - answer_20
   # - answer_21
   # - answer_22
   # - answer_23
@@ -49,19 +49,19 @@ entities:
   - a5
   - a6
   - a7
-  # - a8
-  # - a9
-  # - a10
-  # - a11
-  # - a12
-  # - a13
-  # - a14
-  # - a15
-  # - a16
-  # - a17
-  # - a18
-  # - a19
-  # - a20
+  - a8
+  - a9
+  - a10
+  - a11
+  - a12
+  - a13
+  - a14
+  - a15
+  - a16
+  - a17
+  - a18
+  - a19
+  - a20
   # - a21
   # - a22
   # - a23
@@ -117,74 +117,74 @@ slots:
       - type: from_entity
         entity: a7
 
-  # a8:
-  #   type: text
-  #   mappings:
-  #     - type: from_entity
-  #       entity: a8
+  a8:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a8
 
-  # a9:
-  #   type: text
-  #   mappings:
-  #     - type: from_entity
-  #       entity: a9
+  a9:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a9
 
-  # a10:
-  #   type: text
-  #   mappings:
-  #     - type: from_entity
-  #       entity: a10
-  # a11:
-  #   type: text
-  #   mappings:
-  #     - type: from_entity
-  #       entity: a11
-  # a12:
-  #   type: text
-  #   mappings:
-  #     - type: from_entity
-  #       entity: a12
-  # a13:
-  #   type: text
-  #   mappings:
-  #     - type: from_entity
-  #       entity: a13
-  # a14:
-  #   type: text
-  #   mappings:
-  #     - type: from_entity
-  #       entity: a14
-  # a15:
-  #   type: text
-  #   mappings:
-  #     - type: from_entity
-  #       entity: a15
-  # a16:
-  #   type: text
-  #   mappings:
-  #     - type: from_entity
-  #       entity: a16
-  # a17:
-  #   type: text
-  #   mappings:
-  #     - type: from_entity
-  #       entity: a17
-  # a18:
-  #   type: text
-  #   mappings:
-  #     - type: from_entity
-  #       entity: a18
+  a10:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a10
+  a11:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a11
+  a12:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a12
+  a13:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a13
+  a14:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a14
+  a15:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a15
+  a16:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a16
+  a17:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a17
+  a18:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a18
 
-  # a19:
-  #   type: text
-  #   mappings:
-  #     - type: from_entity
-  #       entity: a19
-  # a20:
-  #   type: text
-  #   mappings:
-  #     - type: from_entity
-  #       entity: a20
+  a19:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: a19
+  a20:
+    type: text
+    mappings:
+     - type: from_entity
+       entity: a20
   # a21:
   #   type: text
   #   mappings:
@@ -246,6 +246,19 @@ forms:
       - a5
       - a6
       - a7
+      - a8
+      - a9
+      - a10
+      - a11
+      - a12
+      - a13
+      - a14
+      - a15
+      - a16
+      - a17
+      - a18
+      - a19
+      - a20
 
 actions:
   - action_submit
@@ -294,37 +307,37 @@ responses:
   utter_ask_a7:
   - text: "Communication channel is shared by all machines on the network in?\na)unicast network\nb)broadcast network\nc)multicast network\nd)none of the mentioned"
 
-  # utter_question_8:
-  # - text: "Multiplexing is used in?a)Circuit switchingb)Data switchingc)Packet switchingd)Packet & Circuit switching"
+  utter_question_8:
+  - text: "Multiplexing is used in?a)Circuit switchingb)Data switchingc)Packet switchingd)Packet & Circuit switching"
 
-  # utter_question_9:
-  # - text: "Bluetooth is an example of?a)local area networkb)virtual private networkc)personal area networkd)none of the mentioned"
-  # utter_question_10:
-  # - text: "What is the maximum efficiency of slotted aloha at G = 1?a)36.8b)35.8c)35.5d)37.8"
+  utter_question_9:
+  - text: "Bluetooth is an example of?a)local area networkb)virtual private networkc)personal area networkd)none of the mentioned"
+  utter_question_10:
+  - text: "What is the maximum efficiency of slotted aloha at G = 1?a)36.8b)35.8c)35.5d)37.8"
 
-  # utter_question_11:
-  # - text: "In a stack, if a user tries to remove an element from an empty stack it is called?a)Empty collectionb)Underflowc)Overflowd)Garbage Collection"
+  utter_question_11:
+  - text: "In a stack, if a user tries to remove an element from an empty stack it is called?a)Empty collectionb)Underflowc)Overflowd)Garbage Collection"
 
-  # utter_question_12:
-  # - text: "What is the value of the postfix expression 6 3 2 4 + – *?a)1b)40c)74d)-18"
+  utter_question_12:
+  - text: "What is the value of the postfix expression 6 3 2 4 + – *?a)1b)40c)74d)-18"
 
-  # utter_question_13:
-  # - text: "How many bits would a succinct binary tree occupy?a)n+O(n)b)2n+O(n)c)n/2d)n"
-  # utter_question_14:
-  # - text: "If binary trees are represented in arrays, using what formula can a parent node be located in an array?a)(i+1)/2b)(i-1)/2c)i/2d)2i/2"
+  utter_question_13:
+  - text: "How many bits would a succinct binary tree occupy?a)n+O(n)b)2n+O(n)c)n/2d)n"
+  utter_question_14:
+  - text: "If binary trees are represented in arrays, using what formula can a parent node be located in an array?a)(i+1)/2b)(i-1)/2c)i/2d)2i/2"
 
-  # utter_question_15:
-  # - text: "What is the complexity of adding an element to the heap.?a)O(log n)b)O(h)c)O(log n) & O(h)d)O(n)"
-  # utter_question_16:
-  # - text: "What is the maximum length of the filename in DOS?a)4b)5c)8d)12"
-  # utter_question_17:
-  # - text: "What else is a command interpreter called?a)promptb)kernelc)shelld)command"
-  # utter_question_18:
-  # - text: "Banker's algorithm is used?a)To prevent deadlockb)To deadlock recoveryc)To solve the deadlockd)None of these"
-  # utter_question_19:
-  # - text: "Which of the following is a single-user operating system?a)Windowsb)MACc)Ms-Dosd)None of these"
-  # utter_question_20:
-  # - text: "Which of the following is a condition that causes deadlock?a)Mutual exclusionb)Hold and waitc)Circular waitd)No preemptione)All of these"
+  utter_question_15:
+  - text: "What is the complexity of adding an element to the heap.?a)O(log n)b)O(h)c)O(log n) & O(h)d)O(n)"
+  utter_question_16:
+  - text: "What is the maximum length of the filename in DOS?a)4b)5c)8d)12"
+  utter_question_17:
+  - text: "What else is a command interpreter called?a)promptb)kernelc)shelld)command"
+  utter_question_18:
+  - text: "Banker's algorithm is used?a)To prevent deadlockb)To deadlock recoveryc)To solve the deadlockd)None of these"
+  utter_question_19:
+  - text: "Which of the following is a single-user operating system?a)Windowsb)MACc)Ms-Dosd)None of these"
+  utter_question_20:
+  - text: "Which of the following is a condition that causes deadlock?a)Mutual exclusionb)Hold and waitc)Circular waitd)No preemptione)All of these"
   # utter_question_21:
   # - text: "Which is not a feature of OOP in general definitions?a)Efficient Codeb)Code reusabilityc)Modularityd)Duplicate/Redundant data"
   # utter_question_22:
@@ -346,10 +359,10 @@ responses:
   # utter_question_30:
   # - text: "Which number should come next in the series, 12, 36,109, 329, _?a)990b)900c)940d)890"
   utter_details_answer:
-  - text: "Your Answers \nQuestion1: {q1},\nQuestion2: {q2}, \nQuestion3: {q3}, \nQuestion4: {q4}, \nQuestion5: {q5}, \nQuestion6: {q6}, \nQuestion7: {q7}\n\nYour total score: {Score}"
+  - text: "Your Answers \nQuestion1: {q1},\nQuestion2: {q2}, \nQuestion3: {q3}, \nQuestion4: {q4}, \nQuestion5: {q5}, \nQuestion6: {q6}, \nQuestion7: {q7}, \nQuestion8: {q8}, \nQuestion9: {q9}, \nQuestion10: {q10}, \nQuestion11: {q11}, \nQuestion12: {q12}, \nQuestion13: {q13}, \nQuestion14: {q14}, \nQuestion14: {q14}, \nQuestion15: {q15}, \nQuestion16: {q16}, \nQuestion17: {q17}, \nQuestion18: {q18}, \nQuestion19: {q19}, \nQuestion20: {q20},\nYour total score: {Score}"
 
   utter_end_interview:
-  - text: "Ok let's end the interview here, Thankyou for your time."
+  - text: "Ok let's end the interview here, Thank you for your time."
 
 session_config:
   session_expiration_time: 60

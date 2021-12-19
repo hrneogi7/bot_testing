@@ -98,7 +98,7 @@ nlu:
     - yes sure
     - ofcourse
     - yes please
-    - sure
+    - I think iam ready
 
 - intent: answer_1
   examples: |
@@ -150,102 +150,102 @@ nlu:
     - [unicast network]{"entity":"a7"}
     - [broadcast network]{"entity":"a7"}
     - [multicast network]{"entity":"a7"}
-    - [none]{"entity":"a7"}
+    - [none of the mentioned]{"entity":"a7"}
 
-# - intent: answer_8
-#   examples: |
-#     - Circuit switching
-#     - Data switching
-#     - Packet switching
-#     - Packet & Circuit switching
+- intent: answer_8
+  examples: |
+    - [Circuit switching]{"entity":"a8"}
+    - [Data switching]{"entity":"a8"}
+    - [Packet switching]{"entity":"a8"}
+    - [Packet & Circuit switching]{"entity":"a8"}
 
-# - intent: answer_9
-#   examples: |
-#     - local area network
-#     - virtual private network
-#     - personal area network
-#     - none of the mentioned
+- intent: answer_9
+  examples: |
+    - [local area network]{"entity":"a9"}
+    - [virtual private network]{"entity":"a9"}
+    - [personal area network]{"entity":"a9"}
+    - [none of the mentioned]{"entity":"a9"}
 
-# - intent: answer_10
-#   examples: |
-#     - 36.8
-#     - 35.8
-#     - 35.5
-#     - 37.8
-
-
-# - intent: answer_11
-#   examples: |
-#     - Empty collection
-#     - Underflow
-#     - Overflow
-#     - Garbage Collection
-
-# - intent: answer_12
-#   examples: |
-#     - 1
-#     - 40
-#     - 74
-#     - -18
-
-# - intent: answer_13
-#   examples: |
-#     - n+O(n)
-#     - 2n+O(n)
-#     - n/2
-#     - n
-
-# - intent: answer_14
-#   examples: |
-#     - (i+1)/2
-#     - (i-1)/2
-#     - i/2
-#     - 2i/2
-
-# - intent: answer_15
-#   examples: |
-#     - O(log n)
-#     - O(h)
-#     - O(log n) & O(h)
-#     - O(n)
-
-# - intent: answer_16
-#   examples: |
-#     - 4
-#     - 5
-#     - 8
-#     - 12
-
-# - intent: answer_17
-#   examples: |
-#     - prompt
-#     - kernel
-#     - shell
-#     - command
+- intent: answer_10
+  examples: |
+    - [36.8]{"entity":"a10"}
+    - [35.8]{"entity":"a10"}
+    - [35.5]{"entity":"a10"}
+    - [37.8]{"entity":"a10"}
 
 
-# - intent: answer_18
-#   examples: |
-#     - To prevent deadlock
-#     - To deadlock recovery
-#     - To solve the deadlock
-#     - None of these
+- intent: answer_11
+  examples: |
+    - [Empty collection]{"entity":"a11"}
+    - [Underflow]{"entity":"a11"}
+    - [Overflow]{"entity":"a11"}
+    - [Garbage Collection]{"entity":"a11"}
 
-# - intent: answer_19
-#   examples: |
-#     - Windows
-#     - MAC
-#     - Ms-Dos
-#     - None of
+- intent: answer_12
+  examples: |
+    - [1]{"entity":"a12"}
+    - [40]{"entity":"a12"}
+    - [74]{"entity":"a12"}
+    - [-18]{"entity":"a12"}
+
+- intent: answer_13
+  examples: |
+    - [n+O(n)]{"entity":"a13"}
+    - [2n+O(n)]{"entity":"a13"}
+    - [n/2]{"entity":"a13"}
+    - [n]{"entity":"a13"}
+
+- intent: answer_14
+  examples: |
+    - [(i+1)/2]{"entity":"a14"}
+    - [(i-1)/2]{"entity":"a14"}
+    - [i/2]{"entity":"a14"}
+    - [2i/2]{"entity":"a14"}
+
+- intent: answer_15
+  examples: |
+    - [O(log n)]{"entity":"a15"}
+    - [O(h)]{"entity":"a15"}
+    - [O(log n) & O(h)]{"entity":"a15"}
+    - [O(n)]{"entity":"a15"}
+
+- intent: answer_16
+  examples: |
+    - [4]{"entity":"a16"}
+    - [5]{"entity":"a16"}
+    - [8]{"entity":"a16"}
+    - [12]{"entity":"a16"}
+
+- intent: answer_17
+  examples: |
+    - [prompt]{"entity":"a17"}
+    - [kernel]{"entity":"a17"}
+    - [shell]{"entity":"a17"}
+    - [command]{"entity":"a17"}
 
 
-# - intent: answer_20
-#   examples: |
-#     - Mutual exclusion
-#     - Hold and wait
-#     - Circular wait
-#     - No preemption
-#     - All of these
+- intent: answer_18
+  examples: |
+    - [To prevent deadlock]{"entity":"a18"}
+    - [To deadlock recovery]{"entity":"a18"}
+    - [To solve the deadlock]{"entity":"a18"}
+    - [None of these]{"entity":"a18"}
+
+- intent: answer_19
+  examples: |
+    - [Windows]{"entity":"a19"}
+    - [MAC]{"entity":"a19"}
+    - [Ms-Dos]{"entity":"a19"}
+    - [None of the above]{"entity":"a19"}
+
+
+- intent: answer_20
+  examples: |
+    - [Mutual exclusion]{"entity":"a20"}
+    - [Hold and wait]{"entity":"a20"}
+    - [Circular wait]{"entity":"a20"}
+    - [No preemption]{"entity":"a20"}
+    - [All of these]{"entity":"a20"}
 
 # - intent: answer_21
 #   examples: |
