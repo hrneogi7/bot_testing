@@ -23,7 +23,7 @@ class InterviewForm(Action):
     def run(
         self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict
     ) -> List[EventType]:
-        required_slots = ["a1","a2","a3","a4","a5","a6","a7"]
+        required_slots = ["a1","a2","a3","a4","a5","a6","a7","a8","a9","a10","a11","a11","a12","a13","a14","a15","a16","a17","a18","a19","a20"]
 
         for slot_name in required_slots:
             if tracker.slots.get(slot_name) is None:
@@ -52,23 +52,62 @@ class ActionSubmit(Action):
         a5 = tracker.get_slot('a5')
         a6 = tracker.get_slot('a6')
         a7 = tracker.get_slot('a7')
+        a8 = tracker.get_slot('a8')
+        a9 = tracker.get_slot('a9')
+        a10 = tracker.get_slot('a10')
+        a11 = tracker.get_slot('a11')
+        a12 = tracker.get_slot('a12')
+        a13 = tracker.get_slot('a13')
+        a14 = tracker.get_slot('a14')
+        a15 = tracker.get_slot('a15')
+        a16 = tracker.get_slot('a16')
+        a17 = tracker.get_slot('a17')
+        a18 = tracker.get_slot('a18')
+        a19 = tracker.get_slot('a19')
+        a20 = tracker.get_slot('a20')
 
         score=0
 
         if a1=='DDL(Data Definition Language)':
-            score+=1
-        if a2=='Conceptual Level':
-            score+=1
+            score=score+1
+        if a2=='Physical level':
+            score=score+1
         if a3=='Database Administrator':
-            score+=1
+            score=score+1
         if a4=='Drop':
-            score+=1
-        if a5=='Savepoint':
-            score+=1
+            score=score+1
+        if a5=='Rollback':
+            score=score+1
         if a6=='overlay network':
-            score+=1
-        if a7=='unicast network':
-            score+=1
+            score=score+1
+        if a7=='broadcast network':
+            score=score+1
+        if a8=='circuit switching':
+            score=score+1
+        if a9=='personal area network':
+            score=score+1
+        if a10=='36.8':
+            score=score+1
+        if a11=='underflow':
+            score=score+1
+        if a12=='-18':
+            score=score+1
+        if a13=='Transaction Control Language':
+            score=score+1
+        if a14=='Foreign key':
+            score=score+1
+        if a15=='Gateway':
+            score=score+1
+        if a16=='8':
+            score=score+1
+        if a17=='shell':
+            score=score+1
+        if a18=='to prevent deadlock':
+            score=score+1
+        if a19=='ms-dos':
+            score=score+1
+        if a20=='all of these':
+            score=score+1
 
 
         dispatcher.utter_message(template="utter_details_answer",
@@ -79,6 +118,19 @@ class ActionSubmit(Action):
                                  q5=tracker.get_slot("a5"),
                                  q6=tracker.get_slot("a6"),
                                  q7=tracker.get_slot("a7"),
+                                 q8=tracker.get_slot("a8"),
+                                 q9=tracker.get_slot("a9"),
+                                 q10=tracker.get_slot("a10"),
+                                 q11=tracker.get_slot("a11"),
+                                 q12=tracker.get_slot("a12"),
+                                 q13=tracker.get_slot("a13"),
+                                 q14=tracker.get_slot("a14"),
+                                 q15=tracker.get_slot("a15"),
+                                 q16=tracker.get_slot("a16"),
+                                 q17=tracker.get_slot("a17"),
+                                 q18=tracker.get_slot("a18"),
+                                 q19=tracker.get_slot("a19"),
+                                 q20=tracker.get_slot("a20"),
                                  Score=score)
 
 #from rasa_sdk import Action, Tracker
